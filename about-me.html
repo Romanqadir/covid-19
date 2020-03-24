@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mincss.css">
+    <link rel="stylesheet" href="covidstyle.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <title>covid19</title>
+</head>
+
+<body onload="go()">
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand  text-white" href="#">Covid-19</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <!-- <span class="navbar-toggler-icon"></span> -->
+              <img src="images/icon-bar.png"/>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="covid-19.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="whatcov.html">what's covid-19</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="protectcov.html">protect</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="treatment.html">Treatment</a>
+
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link " href="# ">about me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <section id="my-image">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 text-center">
+                    <img src="images/programmer.jpg" />
+
+                </div>
+                <div class="col-md-10 text-center">
+                    <h3 id="my-name">Abdukhaliq Qadir </h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- section about me -->
+    <section id="ab-me">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <h3>About Me</h3>
+                    <p>Name: Abdulkhaliq Qadir</p>
+                    <p>Age : 20</p>
+                    <p>Live : shaqlawa</p>
+                    <p>skills : Front-end Web Developer,Programmer</p>
+                    <p>Language : Kurdish,English</p>
+                    <p>study : MLT(3rd stage)</p>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- follow us on social media -->
+    <section id="social-media">
+        <div class="container">
+            <h3 class=text-center>Folow Us On Social Media</h3>
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="https://www.facebook.com/oscar.shaqlawaee"> <img src="images/icon-fb.png" /> </a>
+                </div>
+
+
+                <div class="col-md-3">
+                    <a href="https:www.instagram.com/a._.shaqlawa"><img src="images/icon-insta.png" /> </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://accounts.snapchat.com/add/majidkharathaad"> <img src="images/icon-snap.png" /></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://twitter.com/a_shaqlawa"> <img src="images/icon-twitter.png" /></a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <style>
+        * {
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 0;
+            margin: 0;
+            color: white;
+        }
+        
+        body {
+            width: 100%;
+            background-image: linear-gradient(to right, #a517ba, #5f1782);
+            position: relative;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+        
+        #my-image {
+            width: 1000px;
+            height: 350px;
+            background-image: linear-gradient(to bottom, black, orange);
+            border-radius: 50px;
+            margin-left: 10%;
+            margin-top: 55px;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+        
+        #my-image img {
+            width: 190px;
+            border-radius: 50%;
+            margin-left: 400px;
+            margin-top: 7.5%;
+            margin-left: 200px;
+        }
+        
+        #my-image h3 {
+            padding: 55px;
+        }
+        
+        #my-name {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 35%;
+            font-style: italic;
+            margin-top: 3%;
+            font-style: normal;
+            color: #fff;
+        }
+        
+        #ab-me {
+            width: 1000px;
+            background-image: linear-gradient(to bottom, grey, black);
+            border-radius: 50px;
+            margin-left: 10%;
+            margin-top: 55px;
+        }
+        
+        #ab-me h3 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 15px;
+        }
+        
+        #ab-me p {
+            margin-left: 5%;
+        }
+        
+        #social-media {
+            width: 1000px;
+            background-image: linear-gradient(to bottom, grey, #aab482);
+            border-radius: 50px;
+            margin-left: 10%;
+            margin-top: 55px;
+            padding: 50px;
+        }
+        
+        #social-media img {
+            width: 50px;
+            height: 50px;
+            margin-top: 30px;
+        }
+    </style>
+
+</body>
+
+</html>
